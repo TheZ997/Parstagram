@@ -10,6 +10,7 @@
 		013B811403434A99DE470A65 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC70AA0E71369D882A2D8A /* Pods_ParstagramTests.framework */; };
 		12CE19CB0F8A8E015EAC675C /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BB2E097DE1EAEEA117B1B7 /* Pods_Parstagram_ParstagramUITests.framework */; };
 		1F45DBD0F6160276E0A8F91B /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFE0B31CCC78E138E85CA28 /* Pods_Parstagram.framework */; };
+		362BB1F527E05DFC00724E77 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362BB1F427E05DFC00724E77 /* CommentCell.swift */; };
 		362ED2E927D71CC600596822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362ED2E827D71CC600596822 /* AppDelegate.swift */; };
 		362ED2EB27D71CC600596822 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362ED2EA27D71CC600596822 /* SceneDelegate.swift */; };
 		362ED2F027D71CC600596822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362ED2EE27D71CC600596822 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		362BB1F427E05DFC00724E77 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		362ED2E527D71CC600596822 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		362ED2E827D71CC600596822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		362ED2EA27D71CC600596822 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				362ED2E827D71CC600596822 /* AppDelegate.swift */,
+				362BB1F427E05DFC00724E77 /* CommentCell.swift */,
 				3698231F27D9AB29003A3FE6 /* CameraViewController.swift */,
 				36D32F4C27DB182F004AAE92 /* PostCell.swift */,
 				365C7C9127D95BB000415CA4 /* FeedViewController.swift */,
@@ -421,6 +424,7 @@
 				362ED2E927D71CC600596822 /* AppDelegate.swift in Sources */,
 				365C7C9227D95BB000415CA4 /* FeedViewController.swift in Sources */,
 				362ED2EB27D71CC600596822 /* SceneDelegate.swift in Sources */,
+				362BB1F527E05DFC00724E77 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
